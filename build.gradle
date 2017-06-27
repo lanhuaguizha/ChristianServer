@@ -4,6 +4,9 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
+//		maven {
+//			url("https://plugins.gradle.org/m2/")
+//		}
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -19,10 +22,17 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+//	maven {
+//		url("https://plugins.gradle.org/m2/")
+//	}
 }
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+//	compile'org.springframework.boot:spring-boot-starter'
+	compile'org.springframework.boot:spring-boot-starter-web'
+//	compile'org.mybatis.spring.boot:mybatis-spring-boot-starter:1.1.1'
+//	compile'mysql:mysql-connector-java'
+//	compile'org.springframework.boot:spring-boot-devtools'
+	testCompile'org.springframework.boot:spring-boot-starter-test'
 }
