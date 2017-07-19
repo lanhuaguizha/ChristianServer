@@ -1,5 +1,6 @@
 package com.christian.controller;
 
+import com.christian.bean.Gospel;
 import com.christian.mapper.GospelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
