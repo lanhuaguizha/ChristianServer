@@ -1,5 +1,7 @@
 package com.christian.mapper;
 
+import com.christian.bean.Gospel;
+
 import java.util.List;
 
 /**
