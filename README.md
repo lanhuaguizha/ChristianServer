@@ -1,2 +1,0 @@
-# ChristianServer
-Christian software
