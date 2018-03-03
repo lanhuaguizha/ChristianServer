@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChristianServer.iml" filepath="$PROJECT_DIR$/ChristianServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChristianServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ChristianServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChristianServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChristianServer_main.iml" group="ChristianServer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChristianServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChristianServer_test.iml" group="ChristianServer" />
     </modules>
