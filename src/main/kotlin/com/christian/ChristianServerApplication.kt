@@ -9,3 +9,5 @@ class ChristianServerApplication
 fun main(args: Array<String>) {
     runApplication<ChristianServerApplication>(*args)
 }
+
+//https://www.bejson.com/jsoneditoronline/  Json制作
