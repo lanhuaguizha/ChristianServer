@@ -1,12 +1,12 @@
-package com.christian.controller
+package com.christian.presenter
 
-import com.christian.bean.Detail
+import com.christian.domain.Detail
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
 @RestController
-class DetailController {
+class DetailPresenter {
 
     //    http://127.0.0.1:8080/detail
     val details: List<Detail>
