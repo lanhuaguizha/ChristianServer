@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
 @RestController
-class NavPresenter {
+class NavController {
 
     //    http://127.0.0.1:8080/nav
     val navs: List<Nav>
         @RequestMapping("/nav")
         get() = Arrays.asList<Nav>(
-                Nav("马太福音", "虚心的人有福了", "虚心的人有福了，因为天国是他们的。哀恸的人有福了，因为他们必得安慰。温柔的人有福了，因为他们必承受地土。" +
+                Nav("马太福音完美", "虚心的人有福了", "虚心的人有福了，因为天国是他们的。哀恸的人有福了，因为他们必得安慰。温柔的人有福了，因为他们必承受地土。" +
                         "饥渴慕义的人有福了．因为他们必得饱足。" +
                         "怜恤人的人有福了．因为他们必蒙怜恤。" +
                         "清心的人有福了．因为他们必得见　神。" +

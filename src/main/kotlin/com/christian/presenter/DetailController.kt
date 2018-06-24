@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
 @RestController
-class DetailPresenter {
+class DetailController {
 
     //    http://127.0.0.1:8080/detail
     val details: List<Detail>
