@@ -1,4 +1,4 @@
-# About Christian Server
+# Christian Server
 
 * Server code for Christian client, serving all clients for Chritian Software 
 * Project status: working
