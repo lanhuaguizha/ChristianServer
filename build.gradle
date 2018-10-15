@@ -1,13 +1,11 @@
 buildscript {
     ext {
-        kotlinVersion = '1.2.61'
-        springBootVersion = '2.0.0.RELEASE'
+        kotlinVersion = '1.2.71'
+        springBootVersion = '2.0.5.RELEASE'
     }
     repositories {
         maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         mavenCentral()
-        maven { url "https://repo.spring.io/snapshot" }
-        maven { url "https://repo.spring.io/milestone" }
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -41,23 +39,12 @@ compileTestKotlin {
 repositories {
     maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     mavenCentral()
-    maven { url "https://repo.spring.io/snapshot" }
-    maven { url "https://repo.spring.io/milestone" }
-}
-
-configurations {
-    compile.exclude module: "spring-boot-starter-tomcat"
 }
 
 dependencies {
-
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.springframework.boot:spring-boot-starter-jetty')
-//	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
-
-    compile('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
     compile('org.springframework.boot:spring-boot-starter-webflux')
     compile('com.fasterxml.jackson.module:jackson-module-kotlin')
+    compile('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
 
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     compile("org.jetbrains.kotlin:kotlin-reflect")
@@ -65,7 +52,6 @@ dependencies {
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')
-
 }
 
 kotlin {
